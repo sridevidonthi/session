@@ -1,0 +1,217 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+<!--[if IE 7]>
+<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">
+<![endif]--><!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><!-- Bootstrap -->
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script><link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname">Demo Project using Serenity and Cucumber</span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <span class="truncate-40"><a
+                    href="bf11044a785b86fd1f1c4fb5a40b81a4a86d650571a1cdd32f79a9603806d162.html">Searching By Keyword</a></span>
+                > <span class="truncate-60"><a
+                    href="c5945ee7d3c50a1aefe080beb60a9f61c781bd60f17344733b4ab3bc000def94.html">Filter by different item types </a></span>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+        <li >
+            <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 26-07-2018 10:13</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">Searching By Keyword </span>
+                                    <span class="badge tag-badge" style="">Feature</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                In order to find items that I would like to purchase
+As a potential buyer
+I want to be able to search for items containing certain words
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right">
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="b090dbae42ab073a273f0119e1fbba5d9fbc2dfa02dbe3aab699a9fdb70fe1f2.html">Regressiontest
+                                    (tag)</a>
+                                </span>
+                            </p>
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="b73ab2df35cd94b5317e6d6bfdb3d2310ff26862ef2f19989342051d05f64b83.html">Search
+                                    (feature)</a>
+                                </span>
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><i class='fa fa-check-square-o success-icon fa-2x' title='SUCCESS'></i></span>
+                            <span class="test-case-title">
+                                <span class="success-color">Filter by different item types
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+    <div class="story-title">
+        <h3>Scenario:</h3>
+        <div class="scenario">Given I have searched for items containing '&lt;material&gt;'<br>When I filter results by type '&lt;type&gt;'<br>Then I should only see items containing 'foo' of type '&lt;type&gt;'</div>
+    </div>
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="3a9c658304b5d1e89c642b082bd1c4c8ece00daef645b82da17eade690f5c394.png" title="Filter by different item types #1: {material=silk, type=Handmade}" width="1554"/>
+                <img src="88ccdb8b7f11468d3774096e8b83d6fda2aca8299768d287c7e4c8d801ea25dd.png" title="Given I have searched for items containing 'silk'" width="1554"/>
+                <img src="d3abc685469c738d6f4268a36133af43911d3c6c1dedf4d010ac320b0303afe0.png" title="Opens etsy home page" width="1554"/>
+                <img src="88ccdb8b7f11468d3774096e8b83d6fda2aca8299768d287c7e4c8d801ea25dd.png" title="Searches for items containing: silk" width="1554"/>
+                <img src="3a9c658304b5d1e89c642b082bd1c4c8ece00daef645b82da17eade690f5c394.png" title="When I filter results by type 'Handmade'" width="1554"/>
+                <img src="3a9c658304b5d1e89c642b082bd1c4c8ece00daef645b82da17eade690f5c394.png" title="Filters results by type: Handmade" width="1554"/>
+                <img src="3a9c658304b5d1e89c642b082bd1c4c8ece00daef645b82da17eade690f5c394.png" title="Then I should only see items containing 'foo' of type 'Handmade'" width="1554"/>
+                <img src="3a9c658304b5d1e89c642b082bd1c4c8ece00daef645b82da17eade690f5c394.png" title="Should see items related to: foo" width="1554"/>
+                <img src="3a9c658304b5d1e89c642b082bd1c4c8ece00daef645b82da17eade690f5c394.png" title="Should see items of type: Handmade" width="1554"/>
+                <img src="f20ca841969fb3ca551035119f0914f8c86643ee6ecba60ce56b2aa45a5074aa.png" title="Filter by different item types #2: {material=bronze, type=Vintage}" width="1554"/>
+                <img src="414f0099561724cfff343e8a45fe10f1f5c048ba719032b3196fb51efcf7c14b.png" title="Given I have searched for items containing 'bronze'" width="1554"/>
+                <img src="cadfd3806266378cd3034b6ff5d522b90c0a9965a01da8d1e635b5ae7d6cc9de.png" title="Opens etsy home page" width="1554"/>
+                <img src="414f0099561724cfff343e8a45fe10f1f5c048ba719032b3196fb51efcf7c14b.png" title="Searches for items containing: bronze" width="1554"/>
+                <img src="f20ca841969fb3ca551035119f0914f8c86643ee6ecba60ce56b2aa45a5074aa.png" title="When I filter results by type 'Vintage'" width="1554"/>
+                <img src="f20ca841969fb3ca551035119f0914f8c86643ee6ecba60ce56b2aa45a5074aa.png" title="Filters results by type: Vintage" width="1554"/>
+                <img src="f20ca841969fb3ca551035119f0914f8c86643ee6ecba60ce56b2aa45a5074aa.png" title="Then I should only see items containing 'foo' of type 'Vintage'" width="1554"/>
+                <img src="f20ca841969fb3ca551035119f0914f8c86643ee6ecba60ce56b2aa45a5074aa.png" title="Should see items related to: foo" width="1554"/>
+                <img src="f20ca841969fb3ca551035119f0914f8c86643ee6ecba60ce56b2aa45a5074aa.png" title="Should see items of type: Vintage: <span class='success-color'>SUCCESS</span>" width="1554"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 1.8.1</span>
+</div>
+</body>
+</html>
