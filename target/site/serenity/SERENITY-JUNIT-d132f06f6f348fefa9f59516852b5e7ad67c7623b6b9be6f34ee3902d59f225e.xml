@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="0" name="Testing different requests on the reqres application" skipped="0" tests="1" time="3.07" timestamp="2018-07-26 10:14:54"><testcase name="Check if the student application can be accessed by users"><error message="SERENITY_DISABLE_REST_CALLS_AFTER_FAILURES" type="java.lang.NoSuchFieldError">SERENITY_DISABLE_REST_CALLS_AFTER_FAILURES</error><system-err>SERENITY_DISABLE_REST_CALLS_AFTER_FAILURES&#13;
-net.serenitybdd.rest.utils.RestExecutionHelper.restCallsAreDisabled(RestExecutionHelper.java:28)&#13;
-net.serenitybdd.rest.utils.RestSpecificationFactory.getInstrumentedRequestSpecification(RestSpecificationFactory.java:105)&#13;
-net.serenitybdd.rest.utils.RestDecorationHelper.decorate(RestDecorationHelper.java:20)&#13;
-net.serenitybdd.rest.SerenityRest.given(SerenityRest.java:216)&#13;
-net.serenitybdd.practiseSession.steps.StudentSteps.verify_status_code_200_for_listendpoint(StudentSteps.java:20)&#13;
-✽.User sends a GET request to the list endpoint,they must get back a valid status code 200(src/test/resources/features/restapi/checkUserapi.feature:11)&#13;
-</system-err></testcase></testsuite>

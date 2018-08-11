@@ -1,4 +1,0 @@
-"Story","Title","Result","Date","Stability","Duration (s)"
-"Searching by keyword","Should list items related to a specified keyword","SUCCESS","2018-07-26T10:11:52.062-04:00[America/New_York]","0.0","44.59"
-"Searching by keyword","Should be able to filter search results by item type","SUCCESS","2018-07-26T10:12:36.658-04:00[America/New_York]","0.0","45.21"
-"Searching by keyword","Filter by different item types","SUCCESS","2018-07-26T10:13:21.882-04:00[America/New_York]","0.0","91.84"

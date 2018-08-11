@@ -1,1 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="Searching by keyword" skipped="0" tests="4" time="181.65" timestamp="2018-07-26 10:11:52"><testcase name="Should list items related to a specified keyword"/><testcase name="Should be able to filter search results by item type"/><testcase name="Filter by different item types"/></testsuite>
